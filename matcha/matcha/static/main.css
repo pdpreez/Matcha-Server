@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444444;
+}
+
+.bg-steel {
+    background-color: #FD297B;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+
+.btn-outline-info {
+    color: #FD297B;
+    border-color: #FD297B;
+    box-sizing: inherit;
+}
+
+.btn-outline-info :hover {
+    color: #FD297B;
+    border-color: #FD297B;
+    box-sizing: inherit;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+    height: 60px;
+    background-color: #FD297B;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
