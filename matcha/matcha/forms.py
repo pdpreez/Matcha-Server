@@ -6,8 +6,9 @@ from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationE
 from matcha.models import User
 
 class RegistrationForm(FlaskForm):
-    username = StringField('Username',
-                            validators=[DataRequired(), Length(min=3, max=20)])
+    username = StringField('Username', validators=[DataRequired(), Length(min=3, max=20)])
+    first_name = StringField('First_Name', validators=[DataRequired(),Length(min=3, max=50)])
+    last_name = StringField('Last_Name', validators=[DataRequired(),Length(min=3, max=50)])                        
     email = StringField('Email', validators=[DataRequired(), Email()])
     password = PasswordField('Password', validators=[DataRequired(),Length(min=8)])
     confirm_password = PasswordField('Confirm_Password', 
